@@ -93,3 +93,14 @@ background-color: rgba(0,0,0,0.9);
 height: 100vh;
 }
 
+.header1{
+    text-align: center;
+    color: darkgreen;
+    margin-right: 9rem;
+}
+.header2{
+    text-align: center;
+}
+.header2 h3{
+    margin: 7rem;
+}
