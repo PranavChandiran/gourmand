@@ -96,16 +96,13 @@ height: 100vh;
 
 .header1{
     text-align: center;
-    color: darkgreen;
-    margin-right: 9rem;
+    color: goldenrod;
 }
 .header2{
     text-align: center;
 }
-.header2 h3{
-    margin: 7rem;
-}
-.cover1 ,   .cover3 .cover4 , .cover5 , .cover6{
+
+.cover1 , .cover2 ,  .cover3 .cover4 , .cover5 , .cover6{
     
     height: 45%;
     width: 45%;
@@ -114,10 +111,15 @@ height: 100vh;
     background-size: cover ;
     border-radius: 50%;
 }
-.cover2{
-   
+.cover4 ,  .cover3{
+    height: 45%;
+    width: 45%;
     /* margin-left: 55% ; */
     border: 8px solid rgb(41, 141, 41);
     background-size: cover ;
     border-radius: 50%;
+}
+h3::before {
+    content: "😋 ";
+
 }
