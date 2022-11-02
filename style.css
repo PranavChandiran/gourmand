@@ -5,13 +5,15 @@ body{
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient( 135deg, #90F7EC 10%, #32CCBC 100%);
-    background:no-repeat;
+    background-image: linear-gradient( 135deg, #FEB692 10%, #EA5455 100%);
 
 }
 
 .main{
  width: 100%;
+}
+.wrapper{
+    margin: 2rem;
 }
 
 nav{
@@ -138,7 +140,10 @@ h3::before {
     opacity: .5;
 }
  .special {
-    font-size: 4rem;
+    font-size: 17px;
+    background-color: #333;
+    color: #fff;
+    padding: 2px;
 }
 button {
 background-color: #333;
@@ -155,4 +160,23 @@ color: #fff;
 }
 .about-wrapper a {
     text-decoration: underline;
+}
+.contactus-wrapper h1 , h2{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    border-radius: 11px;
+}
+
+.contactus-wrapper{
+    margin: 2.5rem;
+}
+.wrapper-2{
+    margin: 2rem;
+}
+.wrapper-2 h1{
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    border-radius: 11px;
 }
